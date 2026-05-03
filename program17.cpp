@@ -1,0 +1,11 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    ifstream f("a.txt");
+    string s;
+    f >> s;
+    cout << s;
+    f.close();
+}
